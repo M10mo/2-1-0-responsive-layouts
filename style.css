@@ -80,6 +80,7 @@ a {
   justify-content: center;
   border: 5px;
   align-items: center;
+  margin-top: 7rem;
 }
 
 .main-pic {
@@ -189,8 +190,27 @@ main {
 }
 .icon {
   margin-right: 4rem;
-
 }
 #prem-mats {
   padding-left: 1rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  background-color: grey;
+  margin-top: 5rem;
+  column-gap: 1ch;
+}
+footer div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.19rem;
+}
+footer {
+  display: flex;
+  justify-content: end;
+  flex-direction: row;
+  gap: 10rem;
 }
