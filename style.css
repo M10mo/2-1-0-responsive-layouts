@@ -6,6 +6,9 @@
   outline: 0;
   box-sizing: border-box;
 }
+html {
+  background-color: #eeeeee;
+}
 
 body {
   background-color: #eeeeee;
@@ -14,12 +17,13 @@ body {
 }
 
 header {
-  margin-top: 30px;
+  padding-top: 30px;
   display: flex;
   flex-direction: row;
   align-items: center;
   position: fixed;
   top: 0;
+  background-color: #eeeeee;
 }
 .logo {
   width: 60vw;
